@@ -10,4 +10,4 @@ permalink: information-theory
 	- So the [[Fundamental Formula of Information Theory]] says that $$S = -q(H)\log_2q(H)-q(T)\log_2q(T)$$
 	- So suppose we observe $q(H)=1/2=q(T)$, we will get that $S=-(-1)=1 \, bit$ 
 	- This formula says that if I have a coin and the frequency of head and tail is one half, than the amount of information that is given in *one flip* is $1\,bit$
-- 
+- To be continue...

@@ -1,0 +1,12 @@
+---
+title: Communication Capacity
+---
+- If we have a conditional probability $P(Y|X)\equiv \frac{P(XY)}{P(X)}$. 
+- So the [[Conditional Information]] $I(Y|x_i)=-\sum_i p(y_j|x_i)\log_2p(y_i|x_i)$
+- And we can look at the average value $I(Y|X)=\sum_i p(x_i)I(Y|x_i)$
+- So we can show that: $$I(Y|X)=I(XY)-I(X) $$
+- Let's suppose we have a communication channel, where the inputs are $x_i$ and the outputs are $y_j$. So I can describe the cannel with the input probability $p(x_i)$, and the conditional probability of the output $p(y_j|x_i)$.
+- So if the residual information $I(Y|X)$ is zero there is no uncertainty about what I get in the output given that I know what is in. 
+- So a good way to find the mutual information is - let's look how at the amount of looking on the output tell us something about the input. Suppose the received is getting $1$, how much can he be certain about what went in?
+- So if we look at $I(X_{in})-I(X_{in}|Y_{out})$ , we can understand it as the amount of information that the received is learning once he get certain output. We can show that: $$I(X_{in})-I(X_{in}|Y_{out})=I(X_{in},Y_{out})$$
+- So the mutual information of communication channel tell me "how much information is flowing through the channel" - the [[Capacity of the channel]]

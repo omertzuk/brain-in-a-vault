@@ -6,14 +6,14 @@ This is a digital garden built with [Quartz](https://quartz.jzhao.xyz/) and publ
 
 This project was created using Quartz's Obsidian template (run with `npx quartz create --template obsidian`). That template enables Obsidian-flavored markdown features such as wikilinks, callouts, and folder-note conventions which this site leverages.
 
-All content lives in the `content/` folder as Markdown files. The garden is organized as a nested folder structure (see below), and notes are written in the **evergreen note** style: atomic, concept-centered, and heavily interlinked via wikilinks (`[[Note Name]]`).
+All content lives in the `brain-in-a-vault/` folder as Markdown files. The garden is organized as a nested folder structure (see below), and notes are written in the **evergreen note** style: atomic, concept-centered, and heavily interlinked via wikilinks (`[[Note Name]]`).
 
 ---
 
 ## Folder Structure
 
 ```
-content/
+brain-in-a-vault/
 ├── index.md                          ← Welcome page
 ├── Brain in a Vault.md               ← About this garden
 ├── Omer Tzuk.md                      ← Author note
@@ -127,7 +127,7 @@ When asked to build or update a MOC, produce a structured navigational note that
 - Built with Quartz 5, published to GitHub Pages at `omertzuk.github.io/brain-in-a-vault`
 - Configuration lives in `quartz.config.ts` (or `quartz.config.yaml` as present in this project)
 - Quartz renders wikilinks, LaTeX (via KaTeX), Mermaid diagrams, callouts, and Obsidian-flavored Markdown
-- Do not modify files outside `content/` unless explicitly asked
+- Do not modify files outside `brain-in-a-vault/` unless explicitly asked
 
 ---
 

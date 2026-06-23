@@ -17,6 +17,6 @@ The central preoccupation here is **how minds model the world** — and how thos
 - [[Information Theory]] as a cross-domain language for complexity
 - [[Altered States of Consciousness]] and belief revision
 
-If you're arriving from outside, the [[concepts/|Concepts]] page is a good place to orient. My full profile is at [omertzuk.github.io](https://omertzuk.github.io/).
+If you're arriving from outside, the [[Z to A/|Concepts]] page is a good place to orient. My full profile is at [omertzuk.github.io](https://omertzuk.github.io/).
 
 Want to see how notes connect? Visit the [[Graph]] page for quick instructions on opening the local and global graph views.

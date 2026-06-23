@@ -1,6 +1,7 @@
 ---
 title: Active Inference
 aliases:
+  - Active Inference
   - AIF
   - Active Inference Framework
 tags:
@@ -110,7 +111,7 @@ This connects Active Inference with several ideas from [[Information Theory]]:
 - [[Redundancy]] — repeated structure in the signal;
 - [[Signal-to-noise ratio]] — how much useful signal is mixed with irrelevant variation;
 - [[Compression]] — representing a process efficiently;
-- [[Mutual information]] — how much knowing one variable tells us about another;
+- [[Mutual Information]] — how much knowing one variable tells us about another;
 - [[Uncertainty reduction]] — the process of making future states more predictable.
 
 ## The inverse problem
@@ -293,7 +294,7 @@ A simple way to remember the framework:
 - [[Signal-to-noise ratio]]
 - [[Compression]]
 - [[Compressed representation]]
-- [[Mutual information]]
+- [[Mutual Information]]
 - [[Redundancy]]
 - [[Correlation]]
 - [[Causation]]

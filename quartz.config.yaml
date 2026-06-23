@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Omer's Brain in a Vault
+  pageTitle: Quartz 5
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -80,6 +80,9 @@ plugins:
   - source: github:quartz-community/table-of-contents
     enabled: true
     order: 50
+    layout:
+      position: right
+      priority: 30
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -105,6 +108,8 @@ plugins:
   - source: github:quartz-community/roam
     enabled: false
     order: 92
+  - source: github:quartz-community/fonts
+    enabled: true
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -169,7 +174,7 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 30
+      priority: 50
   - source: github:quartz-community/article-title
     enabled: true
     layout:
@@ -245,7 +250,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: true
+      hidePropertiesView: false
       delimiters: ---
       language: yaml
     order: 5

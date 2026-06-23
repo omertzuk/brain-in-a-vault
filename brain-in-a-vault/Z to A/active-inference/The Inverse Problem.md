@@ -67,7 +67,7 @@ This links the inverse problem to ideas such as:
 - [[Predictability]]
 - [[Redundancy]]
 - [[Signal-to-noise ratio]]
-- [[Mutual information]]
+- [[Mutual Information]]
 - [[Uncertainty reduction]]
 
 A well-tuned model captures enough structure to support adaptive action without needing a perfect representation of the world.
